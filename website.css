@@ -1,0 +1,613 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    
+}
+.nav-bar{
+    background-image: url("../Desktop/entrepreneur-g20e60df75_640.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.nav-bar ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 40px;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.nav-bar li{
+    padding: 10px 15px;
+    list-style-type: none;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.nav-bar a:hover{
+    color: rgb(0, 0, 0);
+}
+.text{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;  
+}
+
+.text h1{
+    font-size: 3.8rem;
+    color: white;
+    font-weight: 700;
+    text-shadow: 1rem black;
+    margin-top:-222px;
+}
+.text spam{
+    color:#2ba52a;
+}
+.text p{
+   
+    color: white;
+    font-size: 1rem;
+}
+.text a{
+    color: rgb(25, 0, 255);
+}
+
+/* Main */
+
+#bio{
+    margin: 190px 20px;
+    display: flex;
+    width: 100%;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.img{
+    background-image: url("../Desktop/malik-removebg-preview.png");
+    width: 600px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.info{
+    margin:0px 50px;
+    width: 400px;
+    height: 700px;
+    padding: 50px;
+}
+.info h2{
+    font-size: 48px;
+
+}
+.info p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+#bio p{
+    display: block;
+}
+
+/* Skills lines */
+
+.html{
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.line{
+    width: 350px;
+    height: 5px;
+    /* color: black; */
+    background-color: rgb(201, 9, 9);
+}
+.bar{
+    width: 350px;
+    height: 5px;
+    background-color: blue;
+    margin-top: -5px;
+    display: flex;
+}
+
+.html spam{
+    background-color: #78c43d;
+    position: relative;
+    bottom: -20px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 2px 3px 2px 4px;
+    right: -24.4em;
+    border-radius: 2px;
+    color: white;
+}
+.html .nine{
+    right: -22.7em;
+}
+.html .ten{
+    right: -13.4em;
+}
+.html .one{
+    right: -12.4em;
+}
+
+.html spam::before{
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #78c43d;
+    border-width: 5px;
+    margin-left: -5px;
+}
+
+/* Buttons */
+
+.buttons button{
+    margin-top: 40px;
+    padding: 10px;
+    color: #9ea39a;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1.10rem;
+}
+
+/* Main1 */
+.container{
+    margin-top: 20px;
+}
+.container h2{
+    text-align: center;
+    font-size: 48px;
+}
+.list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list ul,li{
+    padding: 10px;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: #7b8275;
+}
+.list a:hover{
+    color: #676f61;
+}
+/* Gallery */
+
+.pic{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gallery{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    gap: 10px;
+    
+    
+}
+.gallery img{
+    width: 350px;
+    height: 400px;
+   /* ? display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Animation img */
+
+/* Main2 */
+
+.servic{
+    margin-top: 5%;
+}
+
+.servic h2{
+    text-align: center;
+    font-size: 48px;
+}
+
+.flex{
+    display: flex;
+   
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 330px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 20px;
+    box-shadow: rgba(rgb(122, 98, 98), rgb(44, 61, 44), rgb(46, 46, 164), 0.8);
+    border-radius: 5px;
+}
+
+.box h3{
+    margin-bottom: 20px;
+}
+
+.box p{
+    color: #939393;
+}
+
+.box .fa-computer{
+   font-size: 50px;
+   margin-bottom: 5px;
+}
+.box .fa-pen-nib{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.box .fa-shop{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+/* Resume */
+
+.guru{
+    background-color: #615555;
+    margin-top: 10%;
+    height: 100vh;
+}
+
+.heading h2{
+    text-align: center;
+    font-size: 2.45rem;
+    color: black;
+    padding-top: 20px;
+    color: white;
+}
+.row{
+    display: flex;
+    margin-top: 7%;
+    justify-content: center;
+    
+}
+
+.equal img{
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+    
+}
+.hat{
+    margin-left: 25px;
+    background-color: #fff;
+    width: 400px;
+    height: 234px;
+   padding: 30px;
+    box-shadow: rgba(rgb(182, 165, 165), rgb(161, 179, 161), rgb(128, 128, 163), alpha) ;
+    border-radius: 7px;
+    border: 1px solid #676f61;
+}
+.hat p{
+    color: #939393;
+   
+    width: 304px;
+    height: 215px;
+    font-size: 16px;
+
+}
+             
+.aut{
+    color: #6f5a5a;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+}
+.aut a{
+    text-decoration: none;
+}
+
+.love{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.love img{
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.love p {
+    color: #939393;
+    font-size: 16px;
+
+}
+
+
+/* Form */
+
+.form{
+    background-color: #fff;
+    height: 100vh;
+    
+}
+.form h2{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 2.45rem;
+}
+.paper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.information{
+    background-color: #939393;
+   margin-top: 3%;
+   text-align: center;
+   border-radius: 50px;
+     width: 500px;
+    height: 500px;
+    box-shadow: rgba(154, 352,33, 0.6);
+    padding: 50px;
+    box-shadow: rgba(rgb(81, 77, 77), rgb(132, 142, 132), rgb(41, 41, 44), 0.6);
+}
+
+.information:has(.name){
+    font-size: 1.38rem;
+    margin-top: 10px;
+    color: white;
+}
+
+.information input{
+   width: 270px;
+   height: 27px;
+   border-radius: 7px;
+}
+.information button{
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+
+/* Footer */
+
+footer{
+    width: 100vw;
+    height: 60vh;
+    background-color:#6f5a5a;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6f5a5a;
+    width: 100vw;
+    height: 55vh;
+    color: white;
+    padding: 10%;
+}
+
+.orbit{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 70px;
+    
+}
+
+.orbit h3{
+    margin-top: -10px;
+    margin-bottom: 14px;
+}
+
+.icons h4{
+    margin-top: 5%;
+}
+
+.ico{
+    margin-top: 5%;
+    font-size: 1.48rem;
+}
+
+.ico .fa-instagram:hover{
+    background-color: #2ba52a;
+    border-radius: 50%;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+
+}
+.navigation a{
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    margin-top: 10px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+
+}
+
+.services a{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 7px;
+    color: white;
+}
+
+.contact address{
+    padding: 7px;
+}
+
+.fotline p{
+    text-align: center;
+    color: white;
+}
+
+
+
+/* Responsive Website" Media query" */
+
+@media screen and (max-width:1000px) {
+ .nav-bar{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+ }   
+ .nav-bar ul{
+    
+ }
+
+ /* gallery */
+
+ .gallery{
+    padding: 10%;
+ }
+
+ /* guru */
+
+ .guru{
+    width: 100vw;
+    height: 100vh;
+ }
+    
+}
+
+/* 665px */
+
+@media screen and (max-width:668px) {
+    .nav-bar{
+      width: 1000px;
+      height: 600px;
+       background-color: aqua;
+    }   
+    .nav-bar ul{
+       
+    }
+   
+    /* gallery */
+   
+    .gallery{
+       padding: 10%;
+    }
+   
+    /* guru */
+   
+    .guru{
+       width: 100vw;
+       height: 100vh;
+    }
+
+    /* bio */
+
+    #bio{
+        display: block;
+    }
+
+    /* client */
+.guru{
+    height: 1200px;
+    width: 100vw;
+}
+    .row{
+        display: block;
+    }
+    .love{
+        display: block;
+    }
+
+    /* services */
+    .flex{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+       
+   }
+   
+   
+   @media screen and (width:448px) {
+    body{
+        overflow: hidden;
+    }
+    .text h1{
+        font-size: 1.56rem;
+    }
+    .nav-bar{
+        background-image: url("../Desktop/entrepreneur-g20e60df75_640.jpg");
+        max-width: 150vw;
+        height: 600px;
+    }   
+    .nav-bar ul{
+       
+    }
+   
+    /* gallery */
+   
+    .gallery{
+       padding: 10%;
+    }
+   
+    /* guru */
+   
+    .guru{
+       width: 100vw;
+       height: 100vh;
+    }
+       
+   }
+   
+   
+   
+   
